@@ -1,0 +1,75 @@
+html{overflow-y:scroll;}
+
+body{
+    margin:0; 
+    padding:0; 
+    font-size:13px; 
+    font-family:verdana, Arial, Helvetica, sans-serif; 
+    color:#FFFFFF; 
+    background-color:#FFFFFF;
+}
+
+.justify{text-align:justify;}
+
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none; text-decoration:none;}
+
+/* Divisões da pagina */
+.principal{display:block; width:100%; margin:0; text-align:left;}
+.col1{color:#FFFFFF; background-color:#294E79;}
+.col2{color:#666666; background-color:#FFFFFF;}
+.col3, .col4{color:#666666; background-color:#FFFFFF;}
+.col5{color:#FFFFFF; background-color:#1C3451;}
+#titulo, #galeria, #container, #footer{display:block; position:relative; width:960px; margin:0 auto;}
+#galeria {margin-top: 10px; background-color: #E8E8E8;}
+#conteudo{display:block; float:left; width:630px;}
+
+/* Titulo da pagina */
+#titulo{height:110px; z-index:1000;}
+#titulo h1, #titulo p, #titulo ul, #titulo a{margin:0; padding:0; list-style:none; line-height:normal;}
+#titulo h1 a{position:absolute; top:20px; left:0; font-size:38px; font-weight:normal; color:#FFFFFF; background-color:#294E79; font-family:Georgia, "Times New Roman", Times, serif;}
+#titulo p{display:block; position:absolute; top:65px; left:0; color:#F5F5F5; background-color:#294E79; font-size:16px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+/* Container da pagina */
+#container{padding:40px 0;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin:0 0 15px 0; padding:0 0 15px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Georgia, "Times New Roman", Times, serif; border-bottom:1px dashed #666666;}
+#container a{color:#294E79; background-color:#FFFFFF;}
+
+/* Conteudo da pagina e das listas */
+#conteudo .homeconteudo{display:block; width:630px; margin:20px 0 0 0; padding:0;}
+#conteudo .homeconteudo ul{margin:0; padding:0; list-style:none;}
+#conteudo .homeconteudo li{display:block; float:left; width:300px; margin:0 30px 0 0; padding:0;}
+#conteudo .homeconteudo li.last{margin-right:0;}
+#conteudo .homeconteudo li p.imgholder{display:block; width:198px; height:182px; margin:0 0 15px 0; padding:6px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+#conteudo .homeconteudo li p.imgholderwide{display:block; width:290px; height:182px; margin:0 0 15px 0; padding:6px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC; background-size: cover}
+#conteudo .homeconteudo li h2{margin:0; padding:0 0 8px 0; font-size:13px; font-weight:bold; color:#666666; background-color:#FFFFFF; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+
+/* Coluna da direita */
+#coluna_direita{display:block; float:right; width:300px;}
+#coluna_direita .holder{display:block; width:300px; margin-bottom:40px;}
+#coluna_direita .holder p{line-height:1.6em;}
+#coluna_direita div.imgholder{display:block; width:290px; margin:0 0 10px 0; padding:4px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+ul.marcacao {list-style-type: circle;}
+
+/* Detalhes da empresa */
+#compdetails{display:block; float:right; width:550px;}
+#compdetails ul{margin:0; padding:0; list-style:none;}
+#compdetails li{margin:0 0 12px 0;}
+#compdetails li.last{margin:0;}
+#detalhes_empresa{float:left}
+#detalhes_empresa li.last{margin-bottom:20px;}
+#detalhes_empresa{float:right}
+
+
+/* Rodapé */
+#footer{padding:20px 0;}
+#footer a{color:#98B7DC; background-color:#1C3451;}
+#footer h2{margin:0 0 15px 0; padding:0 0 8px 0; font-size:22px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#CCCCCC; background-color:#1C3451; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#contactform{display:block; float:left; width:350px;}
+
+
+/* ------Copyright------ */
+#copyright{display:block; float:left; width:100%; margin:25px 0 0 0; padding:20px 0 0 0; font-size:12px; border-top:1px dashed #666666;}
+#copyright p{margin:0; padding:0;}
